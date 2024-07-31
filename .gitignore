@@ -1,0 +1,41 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js Dependencies
+node_modules/
+
+# Build and Dependency Files
+dist/
+build/
+*.log
+*.pid
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Compiled Code
+*.class
+*.pyc
+*.o
+*.out
+
+# Temporary Files
+*.swp
+*.tmp
+
+# Backup Files
+*.bak
+
+# History Files
+.history/
