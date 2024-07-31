@@ -764,7 +764,6 @@ html {
 .click-image {
   width: 5rem;
   height: auto;
-  margin: 0 5px;
   cursor: pointer;
   transition: opacity 0.3s ease;
 }
@@ -1735,5 +1734,17 @@ html {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    padding: 1rem 0rem;
+  }
+  .footer__title {
+    font-size: 1.2rem;
+  }
+  .footer__size {
+    font-size: 0.7rem;
   }
 }
