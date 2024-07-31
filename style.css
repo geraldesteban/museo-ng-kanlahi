@@ -1143,7 +1143,7 @@ html {
   .navBtns {
     display: flex;
     background-color: #1b1b1b;
-    padding: 1.5rem 0rem 1.5rem 2.5rem;
+    padding: 1rem 0rem 1rem 2.5rem;
     position: relative;
     align-items: center;
     position: fixed;
@@ -1323,11 +1323,15 @@ html {
   }
 
   .footer__size {
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
   }
 
   .footer__copyright {
     font-size: 0.9rem;
+    margin-top: 0rem;
+  }
+
+  .footerProvince {
     margin-top: 0rem;
   }
 
@@ -1577,9 +1581,12 @@ html {
   background-color: #f3f3f3;
   color: #1b1b1b;
   font-family: museumLight;
-  font-size: 2rem;
   text-align: center;
   padding: 5rem 0rem;
+}
+
+.timelineTitle {
+  font-size: 3rem;
 }
 
 .contentTitle {
@@ -1609,18 +1616,18 @@ html {
 
   .timeline-container .timeline::after {
     content: "";
-    left: 31px;
+    left: 21px;
   }
 
   .timeline-container .container {
     width: 100%;
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
     position: relative;
   }
 
   .timeline-container .container::after {
     right: auto;
-    left: 15px;
+    left: 5px;
   }
 
   .timeline-container .left::before,
@@ -1634,24 +1641,61 @@ html {
     left: 0;
     position: relative;
   }
+
+  .timelineTitle {
+    font-size: 2rem;
+  }
+}
+
+.slideDivIconMobile {
+  display: none;
 }
 
 @media screen and (max-width: 950px) {
+  .dioramaHeaderTitle {
+    font-size: 2.5rem;
+  }
+
+  .mySlides {
+    padding: 0.5rem 2rem;
+  }
+
+  .slideMobileNone {
+    display: none;
+  }
+
+  .slideDivIconMobile {
+    display: block;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .slideIcon {
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    margin: 0rem 1rem;
+  }
+
   .slideContent {
     display: block;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
   }
 
   .slideText {
     margin-right: 0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .slideTitle {
     color: #c9ab81;
     font-family: museumLight;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -1665,8 +1709,9 @@ html {
 
   .slideDescription {
     font-family: museumLight;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-indent: 2rem;
+    margin-bottom: 1rem;
   }
 
   .diormaImages {

@@ -81,11 +81,11 @@ const setDisplayDioramaVideo = function (showDioramaVideo) {
 
   if (showDioramaVideo) {
     dioramaVideo.src =
-      "https://www.youtube.com/embed/o1Hc4cBu2k4?autoplay=1&mute=0";
+      "https://www.youtube.com/embed/eJZwMEo4ogg?autoplay=1&mute=0";
     document.body.classList.add("no-scroll");
   } else {
     dioramaVideo.src =
-      "https://www.youtube.com/embed/o1Hc4cBu2k4?autoplay=1&mute=1";
+      "https://www.youtube.com/embed/eJZwMEo4ogg?autoplay=1&mute=1";
     document.body.classList.remove("no-scroll");
   }
 };
