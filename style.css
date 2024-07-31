@@ -661,7 +661,7 @@ html {
   font-family: museumLight;
   border: 1px solid #fff;
   padding: 1rem;
-  margin: 0rem 1rem;
+  margin: 0rem 1.6rem;
 }
 
 .mapTarlacCountryText {
@@ -776,7 +776,6 @@ html {
 
 @media screen and (max-width: 950px) {
   .image-navigation {
-    /* display: none; */
     display: block;
     margin: 0rem 5rem;
   }
